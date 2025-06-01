@@ -18,11 +18,17 @@ This project demonstrates how to use DuckDB with the DuckLake extension to inter
    ```
 3. Run with uv:
 
-   if you are new to uv, run below command to install uv
+   if you are new to uv, run below command to install uv and packages mentioned in pyproject.toml
 
    ```
    pip install uv
-   ```   
+   ```
+   
+   ```
+   run below command in project directory where in pyproject.toml is available
+   
+   uv pip install -e .
+   ```
 
    ```
    uv run main.py
